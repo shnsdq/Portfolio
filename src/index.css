@@ -35,7 +35,10 @@ section {
     @apply flex justify-center items-center;
   }
   .flex-col-center {
-    @apply flex flex-col justify-center items-center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
