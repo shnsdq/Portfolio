@@ -1,9 +1,6 @@
 import React from 'react'
-
-const words= [
-    {text: 'Ideas', imgPath:'/images/ideas.svg'},
-    {text: 'Concepts', imgPath:'/images/concepts.svg'}
-]
+import { words } from '../constants'
+import Button from '../components/Button'
 
 const Hero = () => {
   return (
@@ -35,11 +32,13 @@ const Hero = () => {
                     </h1>
                     <h1>into Real Projects</h1>
                     <h1>that Deliver Results</h1>
-
                 </div>
-
+                <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
+                  Hi, I'm Shaheen, 
+                </p>
+                <Button 
+                clas/>
             </div>
-
         </header>
         {/*RIGHT: 3D MODEL  */}
       </div>
